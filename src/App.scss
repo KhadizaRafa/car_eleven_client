@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
+@mixin buttonStyle() {
+    background:transparent;
+    border-radius: 10px;
+    color: rgba(223, 11, 11, 0.89);
+    border: 2px solid rgba(223, 11, 11, 0.89);
+    } 
+    .main-button{
+        padding : 0px 20px;
+        @include buttonStyle();
+        :hover{
+            background-color:rgba(223, 11, 11, 0.89);
+            color:white;
+        }
+    }
+    .logo {
+        font-weight: bolder;
+        font-family: "Pacifico", cursive;
+    }      
+    .full-width-button{
+        width: 100%;
+        padding: 1%;
+        @include buttonStyle();
+    }

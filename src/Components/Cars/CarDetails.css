@@ -1,0 +1,9 @@
+.carDetails-content{
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(105, 14, 14, 0.3); /* Black w/opacity/see-through */
+    color: white;
+    padding: 2%;
+}
+#car-details-section{
+    background-color:black;
+}

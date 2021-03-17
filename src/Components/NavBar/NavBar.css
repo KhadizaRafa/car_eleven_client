@@ -1,0 +1,13 @@
+.navbar-style {
+    background: transparent;
+    box-shadow: 0 0 10px lightgray;
+}
+.nav-link {
+    margin: 0 20px;
+}
+.logo {
+    font-weight: bolder;
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: "Pacifico", cursive;
+  
+}
